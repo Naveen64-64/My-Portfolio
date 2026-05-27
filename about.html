@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Me | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha384-t1nt8BQoYMLFN5p42tRAtuAAFQaCQODekUVeKKZrEnEyp4H2R0RHFz0KWpmj7i8g"
+        crossorigin="anonymous"
+        />
+        <!--
+            To compute the SRI hash (PowerShell):
+            Invoke-WebRequest -Uri 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css' -OutFile all.min.css
+            $h = [System.Security.Cryptography.SHA384]::Create().ComputeHash([System.IO.File]::ReadAllBytes('all.min.css'))
+            $b = [Convert]::ToBase64String($h)
+            Write-Output ('sha384-' + $b)
+        -->
+
+</head>
+
+<body>
+
+
+  <!-- Background -->
+
+  <div id="bg"></div>
+
+  <!-- Back Button -->
+
+    <a href="index.html" class="back-btn">
+        ← Back to Portfolio
+    </a>
+
+    <!-- HERO -->
+
+    <section class="about-hero">
+
+        <div class="about-image">
+
+            <div class="image-glow"></div>
+
+            <img src="assets/profile.png" alt="Profile">
+
+        </div>
+
+        <div class="about-content">
+
+            <h1>About Me</h1>
+
+            <p>
+                Hello, I'm <span>Dasari Naveen Kumar</span>,
+                a passionate Full Stack Developer and Java Programmer
+                focused on building modern, responsive,
+                and user-friendly digital experiences.
+            </p>
+
+            <p>
+                I enjoy creating beautiful frontend interfaces,
+                scalable backend systems, and interactive web applications
+                using modern technologies.
+            </p>
+
+            <div class="about-buttons">
+
+                <a href="assets/Naveen_Resume.pdf" download>
+                    Download Resume
+                </a>
+                <a href="index.html#projects">
+                    View Projects
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- DETAILS -->
+
+    <section class="details-section">
+
+        <div class="detail-card">
+            <h2>My Journey</h2>
+
+            <p>
+                My development journey started with curiosity about websites
+                and programming. Over time, I learned HTML, CSS,
+                JavaScript, React, Java, databases, and frontend frameworks.
+            </p>
+
+            <p>
+                I continuously improve my skills by building projects,
+                exploring modern UI/UX designs,
+                and learning industry technologies.
+            </p>
+        </div>
+
+        <div class="detail-card">
+            <h2>Education</h2>
+
+            <p>
+                Currently focusing on Full Stack Development,
+                Java programming, backend systems,
+                and responsive web technologies.
+            </p>
+
+            <p>
+                I enjoy learning practical development concepts
+                and implementing them in real-world projects.
+            </p>
+            <p>
+                I currently improve my skills in computer science and software development,
+                and I am eager to apply my knowledge in professional settings.
+            </p>
+        </div>
+
+        <div class="detail-card">
+            <h2>Experience</h2>
+
+            <p>
+                Developed responsive portfolio websites,
+                frontend projects,
+                Java applications,
+                and interactive UI designs.
+            </p>
+
+            <p>
+                Worked with GitHub, Vercel deployment,
+                Three.js animations,
+                and EmailJS integrations.
+            </p>
+        </div>
+
+        <div class="detail-card">
+            <h2>Career Goals</h2>
+
+            <p>
+                My goal is to become a professional software engineer
+                and contribute to impactful digital products.
+            </p>
+
+            <p>
+                I aim to master both frontend and backend technologies
+                while continuously learning modern development tools.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- TECH STACK -->
+
+    <section class="tech-section">
+
+        <h2>Tech Stack</h2>
+
+        <div class="tech-grid">
+
+            <div class="tech-card">HTML</div>
+            <div class="tech-card">CSS</div>
+            <div class="tech-card">JavaScript</div>
+            <div class="tech-card">React</div>
+            <div class="tech-card">Java</div>
+            <div class="tech-card">MySQL</div>
+        </div>
+        <h2>Tools</h2>
+        <div class="tech-grid">
+            <div class="tech-card">GitHub</div>
+            <div class="tech-card">Git</div>
+            <div class="tech-card">Visual Studio Code</div>
+            <div class="tech-card">EmailJS</div>
+            <div class="tech-card">Vercel</div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="about-footer">
+
+        <p>@dasarinaveenkumar277@gmail.com | Portfolio</p>
+
+        <div class="social-icons">
+
+            <a href="https://github.com/Naveen64-64" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub profile">
+            </a>
+
+            <a href="https://www.linkedin.com/in/naveen-kumar-dasari-79776031b/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn profile">
+            </a>
+
+            <a href="https://www.instagram.com/hey_naveen_dasari/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram profile">
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

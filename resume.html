@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Naveen Resume</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha384-CI3ELBVUz9XQO+97x6nwMDPosPR5XvsxW2ua7N1Xeygeh1IxtgqtCkGfQY9WWdHu" crossorigin="anonymous"></script>
+  <!--
+    To compute the correct SRI hash (PowerShell):
+    Invoke-WebRequest -Uri 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js' -OutFile three.min.js
+    $h = [System.Security.Cryptography.SHA384]::Create().ComputeHash([System.IO.File]::ReadAllBytes('three.min.js'))
+    $b = [Convert]::ToBase64String($h)
+    Write-Output ('sha384-' + $b)
+  -->
+</head>
+
+<body>
+
+  <!-- Background -->
+
+  <div id="bg"></div>
+
+  <!-- Back Button -->
+
+  <a href="index.html" class="back-btn">
+    ← Back to Portfolio
+  </a>
+
+  <!-- Resume Page -->
+
+  <section class="resume-page">
+
+    <div class="glass-card resume-card">
+
+      <h1>Dasari Naveen Kumar</h1>
+
+      <p class="resume-role">
+        Full Stack Developer | Java Developer
+      </p>
+
+      <div class="resume-section">
+
+        <h2>About Me</h2>
+
+        <p>
+          Passionate Full Stack Developer focused on building modern,
+          scalable, and responsive applications.
+        </p>
+
+      </div>
+
+      <div class="resume-section">
+
+        <h2>Skills</h2>
+
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Java & OOP</li>
+          <li>React.js</li>
+          <li>Firebase</li>
+          <li>Git & GitHub</li>
+        </ul>
+
+      </div>
+
+      <div class="resume-section">
+
+        <h2>Projects</h2>
+
+        <ul>
+          <li>Modern Portfolio Website</li>
+          <li>Java Desktop Application</li>
+          <li>Responsive Fullstack Projects</li>
+        </ul>
+
+      </div>
+
+      <div class="resume-section">
+
+        <h2>Education</h2>
+
+        <p>
+          Computer Science Student
+        </p>
+
+      </div>
+
+      <!-- Download Resume -->
+
+      <a href="assets/Naveen_Resume.pdf" download>
+        <button class="primary-btn">
+          Download Resume PDF
+        </button>
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- Background Animation -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
