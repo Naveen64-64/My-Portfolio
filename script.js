@@ -76,7 +76,7 @@ if (typeof emailjs !== "undefined") {
   window.addEventListener("load", function () {
 
     // Initialize EmailJS
-    emailjs.init("YOUR_PUBLIC_KEY");
+    emailjs.init("dyqOo7V10xuO4J1YQ");
 
     // Contact Form
     const form = document.getElementById("contact-form");
@@ -96,7 +96,7 @@ if (typeof emailjs !== "undefined") {
       if (button) button.innerHTML = "Sending...";
 
       emailjs
-        .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
+        .sendForm("service_rrbiiv9", "template_v2lxk9p", this)
         .then(() => {
           // SUCCESS
           if (popup) popup.style.display = "flex";
